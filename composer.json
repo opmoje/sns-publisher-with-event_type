@@ -1,6 +1,7 @@
 {
   "name": "opmoje/sns-publisher-with-event_type",
   "description": "SNS Publisher with the event_type parameter (subscription filter policy)",
+  "keywords": ["sns", "subscription", "filter", "policy"],
   "type": "library",
   "require": {
     "php": ">=7.2",
@@ -20,7 +21,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "opmoje\\GraphQLFederation\\": "src/"
+      "Opmoje\\SnsPublisherWithEventType\\": "src"
     }
   },
   "minimum-stability": "stable"

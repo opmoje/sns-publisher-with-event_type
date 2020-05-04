@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Opmoje\Publisher;
+namespace Opmoje\SnsPublisherWithEventType\Publisher;
 
 
 use Aws\Sns\SnsClient;
