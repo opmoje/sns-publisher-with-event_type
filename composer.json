@@ -1,0 +1,27 @@
+{
+  "name": "opmoje/sns-publisher-with-event_type",
+  "description": "SNS Publisher with the event_type parameter (subscription filter policy)",
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "aws/aws-sdk-php": "^3.69",
+    "simple-bus/asynchronous-bundle": "^3.0",
+    "simple-bus/jms-serializer-bundle-bridge": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "7.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vladislav Begulov",
+      "email": "raytracer@yandex.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "opmoje\\GraphQLFederation\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
